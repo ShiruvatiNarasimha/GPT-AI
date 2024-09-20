@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div className="main">
         <div className="nav">
-            <p>Give Prompt In Chat 
+            <p>Give A Prompt  
                  Get Reply From AI
             </p>
             <img src={assets.user_icon} alt=''/>
