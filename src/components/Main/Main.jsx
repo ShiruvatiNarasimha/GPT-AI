@@ -10,8 +10,7 @@ const Main = () => {
   return (
     <div className="main">
         <div className="nav">
-            <p>Give A Prompt  
-                 Get Reply From AI
+            <p> GPT-3.5
             </p>
             <img src={assets.user_icon} alt=''/>
         </div>
