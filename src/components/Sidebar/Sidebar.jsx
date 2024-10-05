@@ -3,18 +3,15 @@ import './Sidebar.css'
 import {assets} from '../../assets/assets';
 import { Context } from '../../Context/Context';
 
+
 const Sidebar = () => {
 
    const[extended, setExtended] = useState(false);
    const {onSent,prevPrompts,setRecentPrompt,newChat} = useContext(Context)
-
-
    const loadPrompt = async (prompt) =>{
     setRecentPrompt(prompt)
     await onSent(prompt)
    }
-
-
   return (
     <div className='Sidebar'>
       <div className='top'>
@@ -55,5 +52,4 @@ const Sidebar = () => {
     </div>
   )
 }
-
 export default Sidebar
